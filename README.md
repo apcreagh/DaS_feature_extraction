@@ -68,7 +68,7 @@ the time and PSD axis scale between the figures. </em>
   <img src="./img/fig3a.png" width="32%" />
   <img src="./img/fig3b.png" width="32%" />
   <img src="./img/fig3c.png" width="32%" alt>
-  <b>Figure -</b> <em> Examples of figure-8-shapes drawn by (L-R): healthy control (HC) PwMS (no apparent upper extremity dysfunction), and aPwMS (abnormal upper extremity function) subjects. Figure depicts actual pixel points drawn (blue) relative to interpolated reference coordinates (black). Hausdorff Distance query points are illustrated with red lines and maximal Hausdorff Distances (HausD, as measured in Pixels) are highlighted with black circles; HC (64 Pixels) , nPwMS (90 Pixels), aPwMS (229 Pixels). The total drawing error (HausDError) can also be dened as sum of the Hausdor distances (i.e. the largest minimum
+  <b>Figure -</b> <em> Examples of figure-8-shapes drawn by (L-R): healthy control (HC) PwMS (no apparent upper extremity dysfunction), and aPwMS (abnormal upper extremity function) subjects. Figure depicts actual pixel points drawn (blue) relative to interpolated reference coordinates (black). Hausdorff Distance query points are illustrated with red lines and maximal Hausdorff Distances (HausD, as measured in Pixels) are highlighted with black circles; HC (64 Pixels) , nPwMS (90 Pixels), aPwMS (229 Pixels). The total drawing error (HausDError) can also be defied as sum of the Hausdorff distances (i.e. the largest minimum
 distances) between the drawn and reference shape, normalized by the number of touch coordinates drawn. </em>
 </p>
 

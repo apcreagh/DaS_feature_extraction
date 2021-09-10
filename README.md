@@ -1,6 +1,6 @@
 # Draw a Shape Feature Extraction
 ## Feature extraction for smartphone-based touchscreen drawing assesments
-Software detailing the extraction of smartphone touch screen drawing features from the Draw a Shape test, assesed as part of the Floodlight PoC app for people with multiple sclerosis (PwMS).
+Software detailing the extraction of smartphone touch screen drawing features from the Draw a Shape test, assessed as part of the Floodlight PoC app for people with multiple sclerosis (PwMS).
 
 <p float="center">
   <img src="./img/DaS_instructions.png" width="19%" />

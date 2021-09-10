@@ -66,7 +66,7 @@ See **`example.m`** for a tutorial on how to implement use this feature extracti
 [features, feature_names] = featureExtraction(shapeData, shape, extra_options);
 ```
 # Feature Extraction Examples
-Multiple features were extracted from each shape capturing temporal, spatial and spatiotemporal aspects involved in the drawing task and potentially respective of manual dexterity. Some visual examples of features are demonstrated in the figures below. For more information on the features, see our paper [1] as well as other excellent reference for features which we adapted in our work [3-6]. 
+Multiple features were extracted from each shape capturing temporal, spatial and spatiotemporal aspects involved in the drawing task and potentially respective of manual dexterity. Some visual examples of features are demonstrated in the figures below. For more information on the features, see our paper [1] as well as some other excellent references for features which we adapted in our work [3-6]. 
 
 ## Temporal Feature Example(s)
 <p float="center">
@@ -82,7 +82,7 @@ the time and PSD axis scale between the figures. </em>
   <img src="./img/fig3a.png" width="32%" />
   <img src="./img/fig3b.png" width="32%" />
   <img src="./img/fig3c.png" width="32%" alt>
-  <b>Figure -</b> <em> Examples of figure-8-shapes drawn by (L-R): healthy control (HC) PwMS (no apparent upper extremity dysfunction), and aPwMS (abnormal upper extremity function) subjects. Figure depicts actual pixel points drawn (blue) relative to interpolated reference coordinates (black). Hausdorff Distance query points are illustrated with red lines and maximal Hausdorff Distances (HausD, as measured in Pixels) are highlighted with black circles; HC (64 Pixels) , nPwMS (90 Pixels), aPwMS (229 Pixels). The total drawing error (HausDError) can also be defied as sum of the Hausdorff distances (i.e. the largest minimum
+  <b>Figure -</b> <em> Examples of figure-8-shapes drawn by (L-R): healthy control (HC) PwMS (no apparent upper extremity dysfunction), and aPwMS (abnormal upper extremity function) subjects. Figure depicts actual pixel points drawn (blue) relative to interpolated reference coordinates (black). Hausdorff Distance query points are illustrated with red lines and maximal Hausdorff Distances (HausD, as measured in Pixels) are highlighted with black circles; HC (64 Pixels), nPwMS (90 Pixels), aPwMS (229 Pixels). The total drawing error (HausDError) can also be defined as sum of the Hausdorff distances (i.e. the largest minimum
 distances) between the drawn and reference shape, normalized by the number of touch coordinates drawn. </em>
 </p>
 
@@ -91,7 +91,7 @@ distances) between the drawn and reference shape, normalized by the number of to
   <img src="./img/fig4a.png" width="32%" />
   <img src="./img/fig4b.png" width="32%" />
   <img src="./img/fig4c.png" width="32%" alt>
-  <b>Figure -</b> <em>  Pixel density heat map representation of spiral shapes drawn (L-R): healthy control (HC) PwMS (no apparent upper extremity dysfunction), and aPwMS (abnormal upper extremity function) subjects. Screen coordinates are first segmented into 2D bins of xed width and drawing touch point coordinates are assigned to respective bins. The number of touch coordinates per bin, and hence time, are represented by heat map colour. This builds a spatio-temporal representation of digital spiral drawing which encode areas of drawing hesitation or non-movements. </em>
+  <b>Figure -</b> <em>  Pixel density heat map representation of spiral shapes drawn (L-R): healthy control (HC) PwMS (no apparent upper extremity dysfunction), and aPwMS (abnormal upper extremity function) subjects. Screen coordinates are first segmented into 2D bins of fixed width and drawing touch point coordinates are assigned to respective bins. The number of touch coordinates per bin, and hence time, are represented by heat map colour. This builds a spatio-temporal representation of digital spiral drawing which encode areas of drawing hesitation or non-movements. </em>
 </p>
 
 # References:

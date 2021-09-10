@@ -35,6 +35,20 @@ DOI: [10.1088/1361-6579/ab8771 ](https://doi.org/10.1088/1361-6579/ab8771)
 
 The codebase demonstrates how to perform modular, scalable and parallelizable draw a shape feature extraction from smartphone touch screen sensor data. 
 # Draw a Shape Feature Extraction Codebase
+
+## Repository Structure 
+  
+    ├── /data/                        # example data  
+    ├── /docs/                        # documentation files 
+    ├── /features/                    # feature files 
+    ├── /img/                         # images 
+    ├── /src/                         # source files 
+    │   ├── featureExtraction.m       # feature extraction wrapper file
+    │   ├── /feature_extraction/      # feature extraction functions 
+    │   └── /functions/               # ancillary/helper functions
+    ├── example.m                     # tutorial file 
+    ├── LICENSE
+    └── README.md
 ## Dependencies 
 - MATLAB R2020b (v9.9)                              
 - Signal Processing Toolbox (v8.5)             
@@ -52,7 +66,7 @@ See **`example.m`** for a tutorial on how to implement use this feature extracti
 [features, feature_names] = featureExtraction(shapeData, shape, extra_options);
 ```
 # Feature Extraction Examples
-Multiple features were extracted from each shape capturing temporal, spatial and spatiotemporal aspects involved in the drawing task and potentially respective of manual dexterity. Some visual examples of features are demonstrated in the figures below. For more information on the features, see our papwer [1] as well as other excellent references for features which we adapted in our work [3-6]. 
+Multiple features were extracted from each shape capturing temporal, spatial and spatiotemporal aspects involved in the drawing task and potentially respective of manual dexterity. Some visual examples of features are demonstrated in the figures below. For more information on the features, see our paper [1] as well as other excellent reference for features which we adapted in our work [3-6]. 
 
 ## Temporal Feature Example(s)
 <p float="center">
@@ -72,7 +86,7 @@ the time and PSD axis scale between the figures. </em>
 distances) between the drawn and reference shape, normalized by the number of touch coordinates drawn. </em>
 </p>
 
-## Spatialtemporal Feature Example(s)
+## Spatiotemporal Feature Example(s)
 <p float="center">
   <img src="./img/fig4a.png" width="32%" />
   <img src="./img/fig4b.png" width="32%" />

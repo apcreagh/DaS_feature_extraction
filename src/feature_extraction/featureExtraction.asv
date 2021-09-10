@@ -9,9 +9,8 @@ function [features, feature_names] = featureExtraction(shapeData, shape, extra_o
 %          - shapeData{:, 1:2}: [Nx3] matrix of drawing x- and y-coordinates, 
 %                               along with corresponding monotonically
 %                               increasing timestamp vector. 
-%               * shapeData{:, 1}: first attempt
-%               * shapeData{:, 2}: second attempt
-%                                  (if applicable, empty otherwise)
+    %          * shapeData{:, 1}: first attempt
+    %          * shapeData{:, 2}: second attempt (if applicable, empty otherwise)
 %          - shapeData{:, 3}: shape name (string, CAPS). e.g. 'CIRCLE'
 %          - shapeData{:, 4}: bool (true/flase) flag to determine if the 
 %                             shape was successfuly completed

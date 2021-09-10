@@ -8,8 +8,6 @@ function [REFERENCE_COORDINATE, x, y, x1, y1, t, xref, yref, extra_options]=extr
 %       - shapeData: [N x 2] matrix of x- and y-coordinate touch screen data 
 %                    (corresponding to shapes drawn)
 %       - shape: the shape name (string). e.g. 'CIRCLE'
-%       - healthyData: [N x 2] matrix of refereence x- and y-coordinate touch
-%                       screen data (corresponding to shapes drawn)
 %       - index: the index of the shape to extract
 %       - mtype: see shapePreperation.m file
 % _________________________________________________________________________
